@@ -1,0 +1,81 @@
+.shapes {
+text-align: center;
+margin:0 auto;
+}
+
+
+.square {
+  margin:0 auto;
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.rectangle {
+  margin:0 auto;
+  width: 300px;
+  height: 150px;
+  background: blue;
+}
+  
+
+
+  .circle {
+    margin:0 auto;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  border-radius: 50%
+}
+
+
+ .oval {
+      margin:0 auto;
+      width: 200px;
+      height: 100px;
+      background: blue;
+      border-radius: 100px / 50px;
+    }
+  
+.triangle-up {
+      margin:0 auto;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid blue;
+    }
+
+
+
+    .triangle-down {
+      margin:0 auto;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid blue;
+    }
+
+
+
+
+    .triangle-left {
+      margin:0 auto;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-right: 100px solid blue;
+      border-bottom: 50px solid transparent;
+    }
+
+
+
+        .triangle-right {
+          margin:0 auto;
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-left: 100px solid blue;
+            border-bottom: 50px solid transparent;
+          }
